@@ -1,4 +1,4 @@
-package hello.core.order;
+package hello.core.member.order;
 
 public class Order {
 
