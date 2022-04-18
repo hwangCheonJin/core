@@ -22,5 +22,6 @@ public class OrderApp {
         Order order = orderService.createOrder(memberID, "itemA", 10000);
 
         System.out.println("order = " + order);
+        
     }
 }
