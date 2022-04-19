@@ -11,6 +11,7 @@ import hello.core.member.order.OrderServiceImpl;
 public class OrderApp {
     public static void main(String[] args) {
     AppConfig appConfig = new AppConfig();
+
         MemberService memberService = appConfig.memberService();
         OrderService orderService = appConfig.orderService();
 
@@ -22,6 +23,6 @@ public class OrderApp {
         Order order = orderService.createOrder(memberID, "itemA", 10000);
 
         System.out.println("order = " + order);
-        
+
     }
 }
