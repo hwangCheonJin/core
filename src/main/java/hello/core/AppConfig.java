@@ -13,8 +13,10 @@ public class AppConfig {
         return new MemberServiceImpl(new MemoryMemberRepository());
     }
 
+
     public OrderService orderService(){
         return new OrderServiceImpl(new MemoryMemberRepository(), new FixDiscountPolicy());
     }
+    
 
 }
