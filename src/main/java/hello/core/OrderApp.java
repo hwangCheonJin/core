@@ -10,6 +10,7 @@ import hello.core.member.order.OrderServiceImpl;
 
 public class OrderApp {
     public static void main(String[] args) {
+        
     AppConfig appConfig = new AppConfig();
 
 
